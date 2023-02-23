@@ -11,8 +11,8 @@ from aiogram.types import ReplyKeyboardMarkup
 import random
 
 #bot token
-TOKEN = '5994631414:AAFDGHOy3UvD6fro7pJOT6Fb9NhbokEJ3tY'
-bot = Bot(token=HERE YOUR TOKEN)
+TOKEN = 'HERE YOUR BOT TOKEN!!!'
+bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
 #register command /start
