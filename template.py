@@ -29,11 +29,7 @@ async def random_num(message:types.Message):
 #reply on message 'poka and other'
 @dp.message_handler(content_types=['text'])
 async def begin(message: types.Message):
-    if message.text.lower() == 'poka':
-        await bot.send_message(message.chat.id, 'poka gun done')
     elif message.text.lower() == 'привет':
         await bot.send_message(message.chat.id, 'Приффки, зая <3')
-    elif message.text.lower() == 'fdsy8953hswa':
-        await bot.send_message(message.chat.id, 'Подрочи мне хуйца пж!! <3 @everlaster_official')
 
 executor.start_polling(dp)
